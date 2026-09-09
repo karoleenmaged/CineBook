@@ -1,16 +1,81 @@
-# React + Vite
+# 🎬 CineBook
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CineBook is a modern movie ticket booking website built with React.
 
-Currently, two official plugins are available:
+It allows users to browse movies, view movie details, choose showtimes and seats, order food & drinks, complete payment, and manage their tickets.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Browse Now Playing and Upcoming Movies
+- View detailed movie information
+- Watch movie trailers
+- Choose cinema showtimes
+- Select seats
+- Add Food & Drinks
+- Multiple payment methods
+- Booking confirmation with QR Code
+- View booked tickets
+- User Signup, Login, Profile and Logout
+- Responsive design
+- Loading and error handling
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies & Tools
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+- React Router
+- Axios
+- TMDB API
+- Lucide React
+- React Hot Toast
+- React Spinners
+- QRCode React
+- html2canvas
+- LocalStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Live Demo
+
+Coming soon 🚀
+
+## 🚀 Installation & Setup
+
+### 1. Clone the repository
+
+git clone https://github.com/karoleenmaged/CineBook.git
+
+### 2. Navigate to the project
+
+cd CineBook
+
+### 3. Install dependencies
+
+npm install
+
+### 4. Create a `.env` file
+
+VITE_TMDB_API_KEY=YOUR_TMDB_API_KEY
+
+CineBook uses the TMDB API to fetch movie data, images, trailers, and related movies.
+
+The `.env` file is excluded from Git using `.gitignore`.
+
+### 5. Start the development server
+
+npm run dev
+
+The application will be available on the local development server.
+
+## 📚 What I Learned
+
+- Building reusable React components
+- Managing state with React Hooks
+- Working with APIs using Axios
+- Using React Router for navigation
+- Handling protected routes
+- Managing data with LocalStorage
+- Creating responsive layouts with Tailwind CSS
+- Handling loading and error states
+- Building forms and validation
+- Using Git and GitHub for version control
