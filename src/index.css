@@ -1,0 +1,44 @@
+@import "tailwindcss";
+:root {
+    --color-bg: #F4F7F9;
+    --color-card: #FFFFFF;
+
+    --color-accent: #8F3045;
+    --color-accent-dark: #6F2335;
+
+    --color-blue: #A9D8E8;
+    --color-blue-dark: #78BFD5;
+
+    --color-text: #17191C;
+    --color-muted: #68727A;
+
+    --color-seat: #159FEF;
+    --color-seat-selected: #4CAF50;
+    --color-seat-occupied: #D6D3D1;
+}
+@keyframes heroZoom {
+    from {
+        opacity: 0;
+        transform: scale(1.05);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.hero-animation {
+    animation: heroZoom 0.7s ease-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
