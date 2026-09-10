@@ -354,7 +354,7 @@ const Confirmation = () => {
  
                                 {movieDetails && ( 
                                     <img 
-                                        src={`${IMAGE_BASE_URL}/w200/${movieDetails.poster_path}`}
+                                        src={`${IMAGE_BASE_URL}/w200${movieDetails.poster_path}`}
                                         className="h-40 sm:h-60 w-24 sm:w-32 object-cover" 
                                     /> 
                                 )} 
