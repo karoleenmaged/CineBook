@@ -37,7 +37,7 @@ It allows users to browse movies, view movie details, choose showtimes and seats
 
 ## 🌐 Live Demo
 
-Coming soon 🚀
+https://cine-book-psi.vercel.app/
 
 ## 🚀 Installation & Setup
 

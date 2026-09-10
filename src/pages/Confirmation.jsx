@@ -8,7 +8,7 @@ import {
     Download 
 } from "lucide-react"; 
  
-import { getMoviedetails } from "../services/tmdb"; 
+import { getMoviedetails,IMAGE_BASE_URL } from "../services/tmdb"; 
 import { useEffect, useState, useRef } from "react"; 
 import { QRCodeSVG } from "qrcode.react"; 
 import photo from "../assets/photo.png"; 
@@ -354,7 +354,7 @@ const Confirmation = () => {
  
                                 {movieDetails && ( 
                                     <img 
-                                        src={`/tmdb-image/t/p/w200/${movieDetails.poster_path}`} 
+                                        src={`${IMAGE_BASE_URL}/w200/${movieDetails.poster_path}`}
                                         className="h-40 sm:h-60 w-24 sm:w-32 object-cover" 
                                     /> 
                                 )} 
