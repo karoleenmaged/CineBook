@@ -100,6 +100,7 @@ const Navbar = () => {
     isLoggedIn&&<button className="hidden md:flex p-2 rounded-2xl bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] cursor-pointer text-white" onClick={()=>{
         localStorage.removeItem('isLoggedIn')
         window.dispatchEvent(new Event('LoginStatusChanged'))
+        x("/")
     }}>
         LogOut
     </button>

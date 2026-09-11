@@ -16,11 +16,13 @@ import Login from "./pages/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Profile from "./pages/Profile";
 import NotFound from "./components/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <>
     <Toaster/>
     <BrowserRouter>
+    <ScrollToTop/>
      <Routes>
       <Route element={<Layout/>}>
       <Route element={<Home/>} path="/"></Route>

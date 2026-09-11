@@ -53,6 +53,7 @@ const MovieCard = ({
             > 
  
                 <Link to={`/movies/${children.id}`}
+                state={{ upcoming: upcoming }}
                     className={` 
                         hover:text-[var(--color-accent)] 
                         font-extrabold 
